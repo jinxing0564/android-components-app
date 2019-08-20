@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="topBarBackground">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#FFFFFF</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bgDialog">#66000000</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="color_333333">#333333</color>
+    <color name="color_666666">#666666</color>
+    <color name="color_777777">#777777</color>
+    <color name="color_999999">#999999</color>
+    <color name="color_cccccc">#cccccc</color>
+    <color name="color_efefef">#efefef</color>
+    <color name="color_e5e5e5">#E5E5E5</color>
+    <color name="color_e6e6e6">#E6E6E6</color>
+    <color name="color_e7e7e7">#E7E7E7</color>
+    <color name="color_bcbcbc">#BCBCBC</color>
+    <color name="color_909090">#909090</color>
+    <color name="color_464646">#464646</color>
+    <color name="color_ff9300">#FF9300</color>
+    <color name="color_ffc26f">#FFC26F</color>
+    <color name="color_535353">#535353</color>
+    <color name="color_222222">#222222</color>
+    <color name="color_282828">#282828</color>
+    <color name="color_f5f5f5">#f5f5f5</color>
+    <color name="color_4d4d4d">#4d4d4d</color>
+    <color name="color_ebebeb">#ebebeb</color>
+    <color name="color_ff5050">#ff5050</color>
+    <color name="color_fafafa">#fafafa</color>
+    <color name="color_f0f0f0">#f0f0f0</color>
+
+    <color name="color_f0f0ee">#f0f0ee</color>
+
+
+    # songsong
+    <color name="color_ff3433">#FF3433</color>
+    <color name="color_ff527b">#FF527B</color>
+    <color name="color_ffe9ea">#FFE9EA</color>
+    <color name="color_d8d8d8">#d8d8d8</color>
+    <color name="color_fd4f4b">#FD4F4B</color>
+    <color name="color_ffa601">#FFA601</color>
+    <color name="color_f7f6f9">#F7F6F9</color>
+    <color name="color_fc7e76">#FC7E76</color>
+
+    #zaloan
+    <color name="color_08c59e">#08C59E</color>
+
+</resources>

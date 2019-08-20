@@ -1,0 +1,52 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.novoda.bintray-release'
+
+android {
+    compileSdkVersion 26
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 26
+        versionCode 100
+        versionName "1.0.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+//        ./gradlew clean build bintrayUpload -PbintrayUser=jinxing0564 -PbintrayKey=xxxxxxxxxxxxx -PdryRun=false
+
+publish {
+    userOrg = 'jinxing0564' // bintray 上注册的用户名
+    groupId = 'com.vince.upgrade' // 包名
+    artifactId = 'upgrade' // library名
+    publishVersion = '1.0.0' // 版本号
+    desc = 'quick app upgrade'
+    website = 'https://github.com/jinxing0564/android-components-app'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:26.0.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+//    implementation 'androidx.appcompat:appcompat:1.0.2'
+//    testImplementation 'junit:junit:4.12'
+//    androidTestImplementation 'androidx.test:runner:1.2.0'
+//    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}
