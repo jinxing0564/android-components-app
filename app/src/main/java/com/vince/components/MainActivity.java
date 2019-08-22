@@ -33,8 +33,8 @@ public class MainActivity extends AppCompatActivity {
                 AppUpgrade.getInstance().showNotification(false);
                 boolean force = true;
                 String url =
-                        "https://imtt.dd.qq.com/16891/apk/8B6C739565BC018EDAECB0229B1ED428.apk?fsname=com.zhongan.insurance_3.2.4_324.apk&csr=1bbd";
-                String md5 = "8b6c739565bc018edaecb0229b1ed428";
+                        "your app download url";
+                String md5 = "your app file md5";
                 String info =
                         "1.若最终审批额度小于您的申请额度，会以审批额度放款；若最终审批额度大于您的申请额度，会以申请额度放款您的申请额度，会以申请。";
                 AppUpgrade.getInstance().showVersionDialog(MainActivity.this, url, md5, info, force);
